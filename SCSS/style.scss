@@ -1,5 +1,7 @@
 /* ---------------- Hamish's Template ---------------- */
+
 /* ---------------- SCSS Variables ---------------- */
+
 /* Colours */
 
 $background-colour:white;
@@ -8,20 +10,23 @@ $focus-colour:orange;
 
 /* Contrasting Typefaces */
 
-$primary-fonts:"Helvetica", arial, sans-serif;;
-$secondary-fonts: "Times", Times New Roman, serif; ;
+$primary-fonts:"Helvetica", arial, sans-serif;
+$secondary-fonts: "Times", Times New Roman, serif;
 
 /* ---------------- General Styles ---------------- */
+
 body {
   background: $background-colour;
   text-align: left; }
-
-/* ---------------- Layout ---------------- */
-#container {
-  margin: 0 auto; }
-
+  
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-fonts; }
 
 p {
   font-family: $secondary-fonts; }
+
+/* ---------------- Layout ---------------- */
+
+#container {
+  margin: 0 auto; }
+

@@ -4,29 +4,48 @@
 
 /* Colours */
 
-$background-colour:white;
+$background-colour:blue;
 $foreground-colour:grey;
 $focus-colour:orange;
 
 /* Contrasting Typefaces */
 
 $primary-fonts:"Garamond", arial, sans-serif;
-$secondary-fonts: "Helvetica", Times New Roman, serif;
+$secondary-fonts: "Hamish", Times New Roman, serif;
 
 /* ---------------- General Styles ---------------- */
 
 body {
   background: $background-colour;
-  text-align: left; }
+  font-size: 16px;
+  text-align: left;
+  color:$foreground-colour; 
+  }
   
 h1, h2, h3, h4, h5, h6 {
-  font-family: $primary-fonts; }
+  font-family: $primary-fonts; 
+  font-size:1em; 
+  }
 
 p {
-  font-family: $secondary-fonts; }
+  font-family: $secondary-fonts; 
+  }
+  
+/* links */
+
+a:link, a:visited {
+	color: $focus-colour;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $foreground-colour;
+}
+  
 
 /* ---------------- Layout ---------------- */
 
 #container {
-  margin: 0 auto; }
+  margin: 0 auto; 
+  }
 

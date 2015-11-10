@@ -4,14 +4,25 @@
 /* Contrasting Typefaces */
 /* ---------------- General Styles ---------------- */
 body {
-  background: white;
-  text-align: left; }
+  background: blue;
+  font-size: 16px;
+  text-align: left;
+  color: grey; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Garamond", arial, sans-serif; }
+  font-family: "Garamond", arial, sans-serif;
+  font-size: 1em; }
 
 p {
-  font-family: "Helvetica", Times New Roman, serif; }
+  font-family: "Hamish", Times New Roman, serif; }
+
+/* links */
+a:link, a:visited {
+  color: orange;
+  text-decoration: none; }
+
+a:hover {
+  color: grey; }
 
 /* ---------------- Layout ---------------- */
 #container {

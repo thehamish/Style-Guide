@@ -8,10 +8,10 @@ body {
   text-align: left; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", arial, sans-serif; }
+  font-family: "Garamond", arial, sans-serif; }
 
 p {
-  font-family: "Times", Times New Roman, serif; }
+  font-family: "Helvetica", Times New Roman, serif; }
 
 /* ---------------- Layout ---------------- */
 #container {

@@ -4,32 +4,49 @@
 
 /* Colours */
 
-$background-colour:blue;
-$foreground-colour:grey;
+$background-colour:white;
+$foreground-colour:#777;
 $focus-colour:orange;
 
 /* Contrasting Typefaces */
 
-$primary-fonts:"Garamond", arial, sans-serif;
-$secondary-fonts: "Hamish", Times New Roman, serif;
+$primary-fonts:"Helvetica", arial, sans-serif;
+$secondary-fonts: "Times", Times New Roman, serif;
 
 /* ---------------- General Styles ---------------- */
 
 body {
   background: $background-colour;
+  background-image: url('../img/baseline-grid.png');
   font-size: 16px;
+  line-height: 1.5;
   text-align: left;
   color:$foreground-colour; 
   }
   
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-fonts; 
-  font-size:1em; 
+  font-size:2em; 
+  font-weight: normal;
+  margin: 1em 0;
   }
 
 p {
   font-family: $secondary-fonts; 
   }
+  
+.it {
+	font-style: italic;
+}
+
+.bold {
+	font-style: bold;
+}
+  
+hr {
+	border: 1px solid $foreground-colour;
+	border-top: none;
+}
   
 /* links */
 
@@ -41,11 +58,27 @@ a:link, a:visited {
 a:hover {
 	color: $foreground-colour;
 }
+
+/* images */
+
+img {
+	width: 100%;
+	height: auto;
+	background: $foreground-colour;
+	margin: 0.5em;
+}
   
+/* ---------------- Navigation ---------------- */
+
+ul { }
+
+ul li ul li { margin: 0 0 0 5em; }
 
 /* ---------------- Layout ---------------- */
 
 #container {
   margin: 0 auto; 
   }
+  
+
 

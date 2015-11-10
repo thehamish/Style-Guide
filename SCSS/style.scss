@@ -1,15 +1,27 @@
-/* Hamish's CSS Template */
+/* ---------------- Hamish's Template ---------------- */
+/* ---------------- SCSS Variables ---------------- */
+/* Colours */
 
+$background-colour:white;
+$foreground-colour:grey;
+$focus-colour:orange;
 
+/* Contrasting Typefaces */
 
-/* Contents */
+$primary-fonts:"Helvetica", arial, sans-serif;;
+$secondary-fonts: "Times", Times New Roman, serif; ;
 
-body { 
-	background: 
-}
+/* ---------------- General Styles ---------------- */
+body {
+  background: $background-colour;
+  text-align: left; }
 
-/* General Styles */
+/* ---------------- Layout ---------------- */
+#container {
+  margin: 0 auto; }
 
-/* Layout */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $primary-fonts; }
 
-/* Menu */
+p {
+  font-family: $secondary-fonts; }

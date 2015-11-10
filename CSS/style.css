@@ -1,0 +1,12 @@
+/* ---------------- Hamish's Template ---------------- */
+/* ---------------- SCSS Variables ---------------- */
+/* Colours */
+/* Contrasting Typefaces */
+/* ---------------- General Styles ---------------- */
+body {
+  background: white;
+  text-align: left; }
+
+/* ---------------- Layout ---------------- */
+#container {
+  margin: 0 auto; }

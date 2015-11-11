@@ -53,10 +53,13 @@ ul {
 ul li ul li {
   margin: 0 0 0 5em; }
 
-/* icon for hideable menu */
-span {
-  font-size: 1em;
-  position: fixed; }
+/* icon and hideable menu */
+span.menu, nav {
+  position: fixed;
+  font-family: "Avenir", arial, sans-serif; }
+
+nav {
+  margin-top: 1.5em; }
 
 /* icon for hideable menu */
 .menu-show {

@@ -4,13 +4,13 @@
 
 /* Colours */
 
-$background-colour:white;
-$foreground-colour:#777;
+$background-colour:grey;
+$foreground-colour:white;
 $focus-colour:orange;
 
 /* Contrasting Typefaces */
 
-$primary-fonts:"Helvetica", arial, sans-serif;
+$primary-fonts:"Avenir", arial, sans-serif;
 $secondary-fonts: "Times", Times New Roman, serif;
 
 /* ---------------- General Styles ---------------- */
@@ -46,6 +46,7 @@ p {
 hr {
 	border: 1px solid $foreground-colour;
 	border-top: none;
+	margin: 0;
 }
   
 /* links */
@@ -63,21 +64,22 @@ a:hover {
 
 img {
 	width: 100%;
-	height: auto;
+	height: 10em;
 	background: $foreground-colour;
-	margin: 0.5em;
+	margin: 1.5em 0;
 }
   
 /* ---------------- Navigation ---------------- */
 
-ul { }
+ul { font-family: $primary-fonts;}
 
 ul li ul li { margin: 0 0 0 5em; }
 
 /* ---------------- Layout ---------------- */
 
 #container {
-  margin: 0 auto; 
+  	margin: 6px auto 0 auto;
+  	width: 600px;
   }
   
 

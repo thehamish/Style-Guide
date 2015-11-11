@@ -1,1 +1,1 @@
-$("span.menu").click(function(){$(".menu-show").toggleClass("slow",function(){})});
+$(document).ready(function(){$("span.menu").click(function(){$("ul").toggleClass("menu-show")})});

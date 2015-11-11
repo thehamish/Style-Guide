@@ -75,6 +75,14 @@ ul { font-family: $primary-fonts;}
 
 ul li ul li { margin: 0 0 0 5em; }
 
+/* icon for hideable menu */
+
+span.menu {
+  font-size: 1em;
+}
+
+/* icon for hideable menu */
+
 .menu-show {
   display:none;
 }

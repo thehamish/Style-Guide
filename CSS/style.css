@@ -4,17 +4,32 @@
 /* Contrasting Typefaces */
 /* ---------------- General Styles ---------------- */
 body {
-  background: blue;
+  background: grey;
+  background-image: url("../img/baseline-grid.png");
   font-size: 16px;
+  line-height: 1.5;
   text-align: left;
-  color: grey; }
+  color: white; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Garamond", arial, sans-serif;
-  font-size: 1em; }
+  font-family: "Avenir", arial, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 1em 0; }
 
 p {
-  font-family: "Hamish", Times New Roman, serif; }
+  font-family: "Times", Times New Roman, serif; }
+
+.it {
+  font-style: italic; }
+
+.bold {
+  font-style: bold; }
+
+hr {
+  border: 1px solid white;
+  border-top: none;
+  margin: 0; }
 
 /* links */
 a:link, a:visited {
@@ -22,8 +37,23 @@ a:link, a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: grey; }
+  color: white; }
+
+/* images */
+img {
+  width: 100%;
+  height: 10em;
+  background: white;
+  margin: 1.5em 0; }
+
+/* ---------------- Navigation ---------------- */
+ul {
+  font-family: "Avenir", arial, sans-serif; }
+
+ul li ul li {
+  margin: 0 0 0 5em; }
 
 /* ---------------- Layout ---------------- */
 #container {
-  margin: 0 auto; }
+  margin: 6px auto 0 auto;
+  width: 600px; }

@@ -75,6 +75,10 @@ ul { font-family: $primary-fonts;}
 
 ul li ul li { margin: 0 0 0 5em; }
 
+.menu-show {
+  display:none;
+}
+
 /* ---------------- Layout ---------------- */
 
 #container {

@@ -53,6 +53,9 @@ ul {
 ul li ul li {
   margin: 0 0 0 5em; }
 
+.menu-show {
+  display: none; }
+
 /* ---------------- Layout ---------------- */
 #container {
   margin: 6px auto 0 auto;
